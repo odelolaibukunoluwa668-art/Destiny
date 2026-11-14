@@ -45,3 +45,6 @@ Unity_Project_Setup/
 *.alf
 *.bat
 *.log
+
+push.cjs
+git_prepare.cjs
