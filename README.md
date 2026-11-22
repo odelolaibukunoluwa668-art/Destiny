@@ -1,71 +1,96 @@
-# PROSPIRA — Premium Digital Product Agency
+# PRECIOUS — Luxury Restaurant & Fast Food (Nigeria)
 
-A high-performance, modern, and futuristic digital agency website recreating [Prospira](https://prospira-agency-iuzt.vercel.app/).
+A world-class, sophisticated four-page website for **PRECIOUS**, celebrating authentic African heritage delicacies, gourmet 24/7 fast food, continental cuisine, and pan-Asian culinary artistry across Lagos and Abuja, Nigeria.
 
-## 🚀 Overview
+---
 
-PROSPIRA builds elite digital products that grow businesses: custom websites, scalable SaaS applications, mobile experiences, and AI automation solutions.
+## 🌟 Brand Identity & Color Palette
 
-## ✨ Features
+Extracted and elevated from the luxury culinary menu identity:
 
-- **Hero Experience**: Interactive 3D floating showcase card, ambient glowing gradients, and magnetic physics CTA buttons with shimmering light transitions.
-- **Animated Numerical Counters**: Viewport-triggered statistics counters (300+ Projects, 10+ Years, 20+ Technologies, 100% Client Focused).
-- **Brand Marquee**: Continuous dual-track ticker featuring Google, Meta, Vercel, Stripe, Linear, AWS, Microsoft, and Adobe with hover state transitions.
-- **Our Expertise**: 6 detailed service cards in a 1px border grid with custom icons and hover transitions:
-  1. Web Development (React, Next.js, Headless CMS)
-  2. Web Applications (SaaS, Full Stack, Dashboard)
-  3. Mobile Apps (Flutter, React Native, iOS/Android)
-  4. Game Development (Unity, Three.js, 2D/3D)
-  5. AI Automation (OpenAI, LLMs, Automation)
-  6. UI/UX Design (Figma, Research, Prototyping)
-- **Interactive Project Estimator**: Live quote calculator on `/services` with selectable project bases and feature add-ons.
-- **Portfolio & Case Studies**: Filterable project gallery on `/portfolio` with full case study modal dialogs (challenges, architectures, metrics).
-- **AI Project Advisor**: Interactive tool on `/contact` generating recommended tech stacks and roadmaps for client project concepts.
-- **Process Timeline**: 5-step alternating lifecycle breakdown on `/process` (Discovery, Strategy, Design, Development, Launch).
-- **About Page**: Agency philosophy, core architecture principles, and infrastructure modernization roadmap.
-- **Global Experience**:
-  - Custom cursor follower with spring physics and interactive element scaling.
-  - Smooth scroll progress bar pinned to the top-right.
-  - Atmospheric SVG noise texture overlay.
-  - Dynamic glassmorphic navbar with mobile drawer.
-  - Newsletter subscription with client-side validation and confirmation feedback.
+* **Deep Charcoal / Black:** `#242323` — Royal dark backgrounds and navigation depth
+* **Golden Yellow:** `#F5B900` — Primary interactive buttons, highlights & badges
+* **Warm Gold:** `#D99A25` — Subtle borders, decorative lines & subtitles
+* **Pure White & Soft Cream:** `#FFFFFF` / `#F8F5EE` — Content typography & readability
+* **Natural Food Green:** `#43852C` — Halal verification & fresh ingredients accents
+
+---
+
+## 🍽️ The Four Culinary Realms
+
+1. **African Heritage Delicacies:**
+   * Firewood-style Smoky Party Jollof with Peppered Goat Meat (Asun)
+   * Pounded Yam with Rich Assorted Egusi Soup
+   * Lekki Seafood Okra Royale with Fresh Atlantic Crab Claws
+   * Kano Yaji Charcoal Suya Sharing Platters
+2. **Gourmet Fast Food & Takeaway (24/7 Delivery Hub):**
+   * Double Wagyu Truffle Smashed Burgers
+   * Signature Lagos Chicken Shawarma Supreme
+   * Honey-Sriracha Glazed Jumbo Wings
+   * Golden Flaky Artisanal Chicken Pies
+3. **Continental Prime Cuts & Pastas:**
+   * Prime Aged Sirloin Steak with Garlic Herb Butter
+   * Pan-Crisped Norwegian Salmon Fillet with Asparagus
+   * Italian Spaghetti Pasta & San Marzano Sugo
+   * Artisan Smashed Avocado Toast on Sourdough
+4. **Imperial Chinese & Wok Hei:**
+   * High-Heat Wok House Fried Rice with Jumbo Prawns
+   * Fiery Szechuan Wok Beef with Spring Onions
+   * Cantonese Sweet & Sour Chicken
+   * Steamed Imperial Dim Sum Dumpling Baskets
+
+---
+
+## 🚀 The Four Complete Pages
+
+* **Home (`/`)**: Cinematic slider hero, brand introduction, curated signature menu section directly referencing the menu flyer, Chef's Special spotlight on Royal Jollof, interactive table booking widget, guest impressions, and Instagram visual gallery.
+* **About Us (`/about`)**: Origin story in Nigeria, meet the executive culinary masters brigade (Le Cordon Bleu and Asian wok masters), and interior architecture of the dining salons.
+* **Our Services (`/services`)**: Dine-in royal experience, 24/7 fast food express counter, temperature-regulated doorstep delivery, royal banquets & event catering, private in-residence chef, and interactive banquet quote consultation form.
+* **Contact Us (`/contact`)**: Three detailed branches (Victoria Island Flagship, Lekki Phase 1 Waterfront, Maitama Abuja Lounge), operating hours, phone hotlines, branch host WhatsApp links, contact form, and interactive FAQs.
+* **Dedicated Menu (`/menu`)**: Full 20+ dish interactive menu with live search, dietary filters (Spicy, Chef's Special, Halal, Vegetarian), category switching, sorting, meal customization (spice level, sides, extra protein), and direct checkout.
+
+---
+
+## 💎 Global Features & Interactive Modals
+
+* **Sticky Glass Navbar:** Transitions from transparent over hero to deep charcoal with gold hairline borders on scroll; animated mobile drawer.
+* **Slide-Out Cart Drawer:** Live item counter, free VIP delivery progress bar (unlocks at ₦30,000 / $40), and subtotal calculation.
+* **Multi-Step Checkout Modal:** Delivery/Pickup toggle, Nigerian delivery address, 4 payment options (Paystack/Card, Direct GTBank/Zenith Bank Transfer with copyable account numbers, POS on delivery, USSD), and live Order Progress tracking receipt.
+* **Table Reservation Modal:** Party size, date picker, time slot, and salon preference with instant confirmation voucher.
+* **Quick View Customizer Modal:** Spice level selection, side choice, extra protein add-on, and real-time price updates.
+* **Live Search Modal:** Real-time dish and ingredient lookup.
+* **Currency Switcher:** One-click toggle between Nigerian Naira (`₦ NGN`) and US Dollars (`$ USD`).
+* **24/7 WhatsApp Concierge:** Floating quick chat action button.
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Framework**: React 18
-- **Language**: TypeScript
-- **Bundler & Tooling**: Vite 5
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
-- **Routing**: React Router DOM (v6)
+* **Frontend:** React 18 (TypeScript)
+* **Build Tool:** Vite 5
+* **Styling:** Tailwind CSS
+* **Animations:** Framer Motion
+* **Icons:** Lucide React
+* **Routing:** React Router DOM (HashRouter for universal hosting support)
 
-## 💻 Getting Started
+---
 
-### Prerequisites
-
-- Node.js 18+
-- npm
-
-### Installation
+## 📦 Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/odelolaibukunoluwa668-art/Destiny.git
+
+# Install dependencies
 npm install
-```
 
-### Running Locally
-
-```bash
 # Start development server
 npm run dev
 
 # Build for production
 npm run build
-
-# Preview production build
-npm run preview
 ```
 
-## 📄 License
+---
 
-MIT License. Copyright © 2026 Team Prospira. All rights reserved.
+© PRECIOUS Restaurant & Fast Food. All rights reserved. Nigeria.

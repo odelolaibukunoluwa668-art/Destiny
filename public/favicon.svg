@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="8" fill="#0B1528"/>
+  <!-- North Star Compass Emblem -->
+  <path d="M24 6L27 18L39 21L29 27L32 39L24 31L16 39L19 27L9 21L21 18L24 6Z" fill="#C5A880"/>
+  <circle cx="24" cy="24" r="3" fill="#0B1528"/>
+</svg>
